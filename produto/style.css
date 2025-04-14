@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+#container{
+    background-image: url(cozinhando.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    height: 120vh;
+}
+header{
+    border-bottom: solid 2px #ffffff;
+    height: 70px;
+    background-color: #00000075;
+    backdrop-filter: blur(2.5px);
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    justify-content: space-between;
+    font-family: poppins;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+nav a{
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding: 0 12px;
+}
+nav a:last-child{
+    border-right: none;
+}
+.text-nav{
+    display: inline;
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+}
+.text-nav:hover{
+    color: #FD9C55;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.text-nav:not(:hover){
+    color: white;
+    transition: all 0.2s ease-in;
+}
+#container2{
+    background-color: rgb(32, 32, 32);
+    height: 30vh;
+}
+#rasgo{
+    width: 70%;
+    height: 500px;
+}
